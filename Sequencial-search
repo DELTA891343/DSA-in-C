@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <conio.h>
+void main()
+{
+  int arr[10]={11,20,10,4,89,45,90,33,77,88};
+  int i,num;
+  clrscr();
+  printf("Enter Number To Search");
+  scanf("%d",&num);
+
+  for(i=0;i<9;i++)
+  {
+      if(arr[i]==num)
+      break;
+  }
+  if(i==10)
+
+      printf("Number Not Found");
+  else
+      printf("number found at position%d",i+1);
+  getch();
+}
