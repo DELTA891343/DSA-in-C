@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <conio.h>
+void quicksort()
+void main()
+{
+  int i,arr[10]={43,98,13,75,28,67,52,19,84,36};
+  clrscr();
+  printf("Befor Sorting");
+  for(i=o;i<=9;i++)
+    printf("%d\n",arr[i]);
+  quicksort (arr 0,9);
+  printf(after sorting)
+  for(j=0;j<=9;j++)
+  printf("%d",arr[i])
+getch();  
+}
+void quicksort(int a[] int lower upper)
+{
+  int loc;
+  if(upper>lower)
+  {
+    loc=split(a,lower,upper);
+    quicksort(a,lower,lef-1);
+    quicksort(loc1,upper);
+  }
+}
+int split(int a[], int lower,int upper
+{
+  int pivot,start,end,t;
+  start=upper;
+  end=upper;
+  pivot=a[lower];
+  while(start<end)
+  {
+    while(a[strat]<=pivot)
+    {
+      strat ++;
+    }
+  while(a [end] > pivot)
+  {
+    t=a[start];
+    a=[loweer]=a[end];
+    a[end]=t;
+    return end;
+}
