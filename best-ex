@@ -1,0 +1,32 @@
+
+#include <stdio.h>
+#include <conio.h>
+
+struct student
+{
+  int roll_no;
+  char name[30];
+  double SPI;
+}s1;
+
+void main()
+{
+  struct student*ptr;
+  clrscr();
+  printf("\n enter the roll no:");
+  scanf("%d",&n1,roll_no:);
+  printf("\n enter the name:");
+  scanf("%s",&n1,name:);
+  printf("\n enter the SPI:");
+  scanf("f",&n1,SPI:)
+  printf("\n");
+  printf("\n----------structure------------\n")
+  printf("\n student roll_no=%d",n1.roll_no);
+  printf("\n student name=%s",n1.name);
+  printf("\n student SPI=%f",n1.SPI);
+  printf("\n")
+  printf(\n student roll_no=%",(*ptr).roll_no);
+  printf(\n student name=%",(*ptr).name);
+  printf(\n student SPI=%",(*ptr).SPI);
+  getch();
+}
